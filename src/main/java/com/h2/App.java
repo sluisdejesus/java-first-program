@@ -17,8 +17,5 @@ public class App
 
     private static int add(int [] numbers){
         sum = 0;
-        for (index = 0; i < numbers.size; number : numbers) {
-
-        }
     }
 }
