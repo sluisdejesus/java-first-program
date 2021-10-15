@@ -16,6 +16,6 @@ public class App
     }
 
     private static int add(int [] numbers){
-        sum = 0;
+        return -1;
     }
 }
