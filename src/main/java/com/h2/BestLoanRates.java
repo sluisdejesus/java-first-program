@@ -28,8 +28,9 @@ public class BestLoanRates {
         }
 
     public static float getRates(int loanTermInYears){
+        if(bestRates.containsKey(loanTermInYears)) {
+            return bestRates.get(loanTermInYears);
+        }
         return 0.0f;
-
-
     }
 }
