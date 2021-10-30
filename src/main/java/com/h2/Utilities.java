@@ -2,8 +2,8 @@ package com.h2;
 
 public class Utilities {
 
-    public static Long getLongValue(String in){
-        Long out = Long.MIN_VALUE;
+    public static long getLongValue(String in){
+        long out = Long.MIN_VALUE;
 
         try {
             out = Long.parseLong(in);
@@ -32,9 +32,11 @@ public class Utilities {
         try{
             out = Float.parseFloat(in);
             } catch (NumberFormatException e){
-            throw new IllegalArgumentException(in + " cannot be converted into a 'float' value. Exiting program");
+            throw new IllegalArgumentException(in + " cannot be converted into a 'float' value. Exiting program.");
         }
         return out;
     }
+
+
 
 }
